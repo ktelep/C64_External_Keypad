@@ -5,17 +5,17 @@ The gerber files and schematics in this repo are my design for a hardware based 
 
 ## Bill of Materials
 
-1.  16 x 2-pin mechanical keyboard keyswitches
-2.  1 x 20 pin 2.54mm right angle female header
-3.  1 x 20 pin 2.54mm  male header
-4.  2 x (2x7) pin 2.54 mm  ale headers or 4 x (1x7) pin 2.54mm male headers
-5.  14 conductor wire to connect between the adapter and keypad.  Long enough to extend out the case to the preferred side of the machine.
+* 16 x 2-pin mechanical keyboard keyswitches
+* 1 x 20 pin 2.54mm right angle female header
+* 1 x 20 pin 2.54mm  male header
+* 14 conductor wire to connect between the adapter and keypad.  Long enough to extend out the case to the preferred side of the machine.  I used ribbon cable and IDC connectors, but you can use whatever you want.  Just align pin 1 to pin 1 between the boards.
+* Depending on how you want to orient your connections, select the appropriate right angle or straight 2.54mm header pins for the keypad and adapter PCB connection.  There are two rows of 7 pins.
 
 ## Assembly
 
 You will need one each of the adapter and keypad PCB.
 
-The right angle connector goes on the bottom of the adapter on the silkscreened side, above it going the non right-angle header.  When plugged in the adapter goes with pin one to the FRONT and the X silkscreened to where the pin is missing on the main board connector.  Your keyboard then plugs in above it.   
+The right angle connector goes on the bottom of the adapter on the silkscreened side, above it going the non right-angle header.  When plugged in the adapter goes with pin one to the FRONT and the X silkscreened to where the pin is missing on the main board connector.  Your keyboard then plugs in above it, you may need to clip off the pin in the second position so your keyboard will be able to connect.
 
 Here is a photo of how it will be oriented:
 
